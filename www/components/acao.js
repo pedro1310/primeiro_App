@@ -6,7 +6,7 @@ $(document).on("click", "#btnSoma", function(){
   var resultado = parseFloat(valor1) + parseFloat(valor2);
 
   $("#resultado").val(resultado);
-});
+})
 
 $(document).on("click", "#btnSub", function(){
   var valor1 = $("#valor1").val();
@@ -14,7 +14,7 @@ $(document).on("click", "#btnSub", function(){
   var resultado = parseFloat(valor1) + parseFloat(valor2);
 
   $("#resultado").val(resultado);
-});
+})
 
 $(document).on("click", "#btnMult", function(){
   var valor1 = $("#valor1").val();
@@ -22,7 +22,7 @@ $(document).on("click", "#btnMult", function(){
   var resultado = parseFloat(valor1) + parseFloat(valor2);
 
   $("#resultado").val(resultado);
-});
+})
 
 $(document).on("click", "#btnDiv", function(){
   var valor1 = $("#valor1").val();
@@ -30,4 +30,4 @@ $(document).on("click", "#btnDiv", function(){
   var resultado = parseFloat(valor1) + parseFloat(valor2);
 
   $("#resultado").val(resultado);
-});
+})
